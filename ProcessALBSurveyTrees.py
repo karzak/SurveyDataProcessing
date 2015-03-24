@@ -15,4 +15,7 @@ Created on Tue Mar 24 15:12:24 2015
 The only input will be the kml file. 
 All other files will be created deleted altered and stored within the script. 
 The output will have a user-friendly title and be easy to locate."""
-
+import tkFileDialog
+def toFeature(SurveyFile):
+    filePath = tkFileDialog.askopenfilename()
+    
